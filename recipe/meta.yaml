@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - hatchling
     - pip
     - setuptools
   run:
-    - python
+    - python >=3.6
     - flake8
 
 test:
