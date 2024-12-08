@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/gforcada/{{ name }}/archive/refs/tags/{{version}}.tar.gz
+  url: https://github.com/gforcada/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
   sha256: 2cc9c9da5aad69c65a83b0005d887703f4a2e8d9ec7327c0c5d9b7258988caa8
 
 build:
@@ -31,7 +31,7 @@ test:
     - pip check
   requires:
     - pip
-    - python
+    - python 3.6
 
 about:
   summary: Warns about deprecated method calls
