@@ -1,13 +1,13 @@
 {% set name = "flake8-deprecated" %}
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flake8_deprecated-{{ version }}.tar.gz
-  sha256: 84cdb63f735ba976d41b263eac6cbee65bfab211f8748725d4e9dd95017dd1a7
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/flake8_deprecated-{{ version }}.tar.gz
+  sha256: 2c6d7b3cce6956d0e7a787bdc0a52ba71e62ece4c07084b73d5f5e3b7715cbfa
 
 build:
   noarch: python
